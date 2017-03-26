@@ -1,6 +1,6 @@
 < Html >
 < Head >
-  < Metacharset = ' utf-8 ' />
+  < Meta charset = " utf-8 " >
 </ Head >
 < Body >
 < Centro >
@@ -8,10 +8,10 @@
   < Script >
    Var opc = 2 ;
    Switch (opc) {
-   Caso  1 : documento . Escrever ( " <br> Opção escolha 1 </ b> " ); quebrar ;
-   Caso  2 : documento . Escrever ( " <br> Opção escolha 2 </ b> " ); quebrar ;
-   Caso  3 : documento . Escrever ( " <br> Opção escolha 3 </ b> " ); quebrar ;
-   Padrão : documento . Escrever ( " <b> Opção escolhida não existe </ b> " );
+   case  1 : document . write ( " <br><b> Opção escolha 1 </ b> " );
+   case  2 : document . write ( " <br><b> Opção escolha 2 </ b> " );
+   case  3 : document . write ( " <br><b> Opção escolha 3 </ b> " );
+   default : document . write ( " <br><b> Opção escolhida não existe </ b> " );
    }
    
   </ Script >
