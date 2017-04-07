@@ -2,14 +2,14 @@
 <head>
 <meta charset="utf-8" />
 <script>
-function cuboDoNumero(número){
+ function cuboDoNumero(número){
  var cubo=número*número*número;
  return cubo;
  }
-function evento(){
- var num_valor=document.getElementById("num"). value;
+ function evento(){
+ var num_valor=window.document.getElementById("num"). value;
  var resl="o cubo é igual a"+cuboDoNumero (num_valor);
-document.getElementById("mensagem"). innerHTML=resl;
+ window.document.getElementById("mensagem"). innerHTML=resl;
 }
 </script>
 </head>
