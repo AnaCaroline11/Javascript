@@ -2,7 +2,7 @@
 <head>
 <meta charset = "utf-8"/>
 <script>
-functin quadradoDoNúmero(número){
+function quadradoDoNúmero(número){
 var resultado = número*número;
 alert("o resultado é igual" + resultado);
 }
@@ -14,7 +14,7 @@ window.document.write("cidade:"+cidade+"<br>");
 </script>
 </head>
 <body>
-<<h1> passando o valor a uma função</h1>
+<h1> passando o valor a uma função</h1>
 <script> quadradoDoNúmero(6);</script>
 <h1> passando valores para uma função</h1>
 <script> exemplo11("aluno",16,"caucaia");</script>
